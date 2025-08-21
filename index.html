@@ -9,11 +9,11 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">
+        <div class="logo title-animation animate">
             John Collins
         </div>
         <div>
-            <ul class="nav-links">
+            <ul class="nav-links white links-animation animate">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Project</a></li>
@@ -38,33 +38,33 @@
     </nav>
     <section id="profile">
         <video src="assets/sky-video-1.mp4" class="video-bg" muted autoplay loop></video>
-        <div class="section__pic-container drop-shadow">
+        <!-- <div class="section__pic-container drop-shadow">
             <img src="./assets/profile-pic.jpg" alt="John Collins Profile Picture">
-        </div>
-        <div class="section__text white">
+        </div> -->
+        <div class="section__text white sect-animation animate">
             <p class="section__text__p1 white">Hello I'm</p>
             <h1 class="title">John Collins</h1>
             <p class="section__text__p2 white">Frontend Developer</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/JCollins-resume.pdf')">
-                    Download CV
+                    Resume/CV
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
                     Contact Info
                 </button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/john-collins-54b465295/'">
-                <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/jcollins54/'">
+                <img src="./assets/linkedin-icon.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/john-collins-54b465295/'">
+                <img src="./assets/github-icon.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/jcollins54/'">
             </div>
         </div>
     </section>
-    <section id="about">
+    <section id="about" class="sect-animation animate">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic">
+                <img src="./assets/profile-pic.jpg" alt="Profile picture" class="about-pic">
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
@@ -93,7 +93,8 @@
         </div>
         <img src="/assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
-    <section id="experience">
+    <section id="experience" class="sect-animation animate">
+        <div class="fadeInUp-sect animate">
         <p class="section__text__p1">Explore My</p>
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
@@ -146,8 +147,9 @@
             </div>
         </div>
         <img src="/assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
+        </div>
     </section>
-    <section id="projects">
+    <section id="projects" class="sect-animation animate">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
         <div class="experience-detials-container">
@@ -155,51 +157,34 @@
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img 
-                        src="./assets/project-1.png" 
+                        src="./assets/coffee-coffee-beans-beans-roasted-1.jpg" 
                         alt="Project 1"
                         class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h2 class="experience-sub-title project-title">Coffee Shop</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/jcollins54/oceancitycoffee-redesign','_blank')">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Live Demo
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://jcollins54.github.io/oceancitycoffee-redesign/index.html','_blank')">
+                            Live Site
                         </button>
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
                         <img 
-                        src="./assets/project-2.png" 
+                        src="./assets/meditation.jpg" 
                         alt="Project 2"
                         class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <h2 class="experience-sub-title project-title">Meditation Oasis</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://jcollins54.github.io/meditation-oasis-redesign/','_blank')">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img 
-                        src="./assets/project-3.png" 
-                        alt="Project 3"
-                        class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Live Demo
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://jcollins54.github.io/meditation-oasis-redesign/','_blank')">
+                            Live Site
                         </button>
                     </div>
                 </div>
@@ -208,13 +193,15 @@
         <img src="/assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contact'">
     </section>
     <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
+        <div class="overlay"></div>
+        <video src="assets/sky-video-2.mp4" class="video-bg" muted autoplay loop></video>
+        <p class="section__text__p1 white sect-animation animate">Get in Touch</p>
+        <h1 class="title white sect-animation animate">Contact Me</h1>
+        <div class="contact-info-upper-container sect-animation animate">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="Email icon"
                 class="icon contact-icon email-icon">
-                <p><a href="mailto:examplemail@gamil.com">Example@gamil.com</a></p>
+                <p><a href="mailto:examplemail@gamil.com">Example@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="LinkedIn icon"
@@ -224,9 +211,9 @@
         </div>
     </section>
     <footer>
-        <nav>
+        <nav class="sect-animation animate">
             <div class="nav-links-container">
-                <ul class="nav-links">
+                <ul class="nav-links white foot-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Project</a></li>
@@ -234,7 +221,7 @@
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2025 John Collins. All Rights Reserved.</p>
+        <p class="sect-animation animate">Copyright &#169; 2025 John Collins. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>

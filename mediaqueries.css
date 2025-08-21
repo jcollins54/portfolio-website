@@ -1,3 +1,27 @@
+@media screen and (min-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    #profile video {
+        height: 105vh;
+    }
+
+    #about{
+        height: 80vh;
+        margin-bottom: 6rem;
+    }
+    #experience{
+        height: 75vh;
+    }
+
+    .about-containers{
+        flex-wrap: wrap;
+    }
+    
+}
+
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
@@ -24,6 +48,9 @@
     #profile, .section-container {
         display: block;
     }
+    .section__text{
+        padding-top: 5rem;
+    }
     .arrow{
         display: none;
     }
@@ -40,6 +67,7 @@
     }
     .about-containers {
         margin-top: 0;
+
     }
     .about-pic {
         width: auto;
@@ -56,6 +84,12 @@
     #profile {
         height: 83vh;
         margin-bottom: 0;
+    }
+    #profile video {
+        height: 70vh;
+    }
+    .section__text{
+        padding-top: 5rem;
     }
     article {
         font-size: 1rem;
