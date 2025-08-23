@@ -41,7 +41,9 @@
     #hamburger-nav{
         display: flex;
     }
-
+    .section-container{
+        text-align: center;
+    }
     #experience, .experience-details-container {
         margin-top: 2rem;
     }
